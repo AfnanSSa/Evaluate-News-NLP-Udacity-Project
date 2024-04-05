@@ -21,15 +21,18 @@ Before proceeding with the setup, ensure Node.js and npm are installed on your s
 
 ## Getting Started
 1. Navigate to the project directory in your terminal:
+   
     `cd <project-directory>`
 
-2. Clone the repository:
+3. Clone the repository:
+   
     `git clone <repository-url>`
 
-3. Install npm dependencies:
+5. Install npm dependencies:
+   
     `npm install`
 
-4. Install Loaders and Plugins
+7. Install Loaders and Plugins
   Depending on your development mode, install the required loaders and plugins:
     `npm i -D @babel/core @babel/preset-env babel-loader
     npm i -D style-loader node-sass css-loader sass-loader
@@ -39,28 +42,33 @@ Before proceeding with the setup, ensure Node.js and npm are installed on your s
     npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin`
 
 
-5. Obtain an API key from MeaningCloud.
+8. Obtain an API key from MeaningCloud.
 
-6. Configure Environment Variables
+9. Configure Environment Variables
   To safeguard your API key, utilize the dotenv package for managing environment variables:
   - Install the dotenv package:
+    
     `npm install dotenv`
 
 - Create a new `.env` file in the project's root directory.
 
 - Populate the `.env` file with your API key:
+  
     `API_KEY=**************************`
 
 ## Useful Commands
 1. Start Development Server:
   - To run the project in development mode with live reloading:
+    
     `npm run build-dev`
 
 2. Build the Project for Production:
   - To bundle and optimize the project for production:
+    
     `npm run build-prod`
 
 3. Run Tests:
+   
   - To execute unit tests using Jest:
     `npm test`
 
