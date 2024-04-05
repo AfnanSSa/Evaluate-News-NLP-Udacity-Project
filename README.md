@@ -15,18 +15,22 @@
 
 ## Setup
 Before proceeding with the setup, ensure Node.js and npm are installed on your system. You can verify their versions using the following commands in the terminal:
-    ```node -v
-      npm -v
+    
+    `node -v`
+    `npm -v`
 
 ## Getting Started
 1. Navigate to the project directory in your terminal:
-   ```cd <project-directory>
+
+   `cd <project-directory>`
 
 3. Clone the repository:
-   ```git clone <repository-url>
+
+   `git clone <repository-url>`
 
 5. Install npm dependencies:
-    ```npm install
+
+   `npm install`
 
 7. Install Loaders and Plugins
   Depending on your development mode, install the required loaders and plugins:
@@ -42,7 +46,8 @@ Before proceeding with the setup, ensure Node.js and npm are installed on your s
 10. Configure Environment Variables
   To safeguard your API key, utilize the dotenv package for managing environment variables:
   - Install the dotenv package:
-    ```npm install dotenv
+
+     `npm install dotenv`
 
 - Create a new `.env` file in the project's root directory.
 
@@ -52,19 +57,23 @@ Before proceeding with the setup, ensure Node.js and npm are installed on your s
 ## Useful Commands
 1. Start Development Server:
   - To run the project in development mode with live reloading:
-    ```npm run build-dev
+
+    `npm run build-dev`
 
 2. Build the Project for Production:
   - To bundle and optimize the project for production:
-    ```npm run build-prod
+
+    `npm run build-prod`
 
 3. Run Tests:
    
   - To execute unit tests using Jest:
-    ```npm test
+
+    `npm test`
 
 4. Start the Application:
   - To launch the application server:
-    ```npm start
+
+    `npm start`
 
 Access the web application by opening your browser and visiting http://localhost:3333/.
