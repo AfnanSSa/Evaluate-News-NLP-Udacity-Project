@@ -15,8 +15,8 @@
 
 ## Setup
 Before proceeding with the setup, ensure Node.js and npm are installed on your system. You can verify their versions using the following commands in the terminal:
-    node -v
-    npm -v
+    `node -v`
+    `npm -v`
 
 ## Getting Started
 1. Navigate to the project directory in your terminal:
