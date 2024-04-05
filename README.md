@@ -52,7 +52,8 @@ Before proceeding with the setup, ensure Node.js and npm are installed on your s
 - Create a new `.env` file in the project's root directory.
 
 - Populate the `.env` file with your API key:
-    ```API_KEY=**************************
+  
+    `API_KEY=**************************`
 
 ## Useful Commands
 1. Start Development Server:
