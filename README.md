@@ -35,17 +35,17 @@ Before proceeding with the setup, ensure Node.js and npm are installed on your s
 7. Install Loaders and Plugins
   Depending on your development mode, install the required loaders and plugins:
 
-    `npm i -D @babel/core @babel/preset-env babel-loader`
+    ```npm i -D @babel/core @babel/preset-env babel-loader
    
-    `npm i -D style-loader node-sass css-loader sass-loader`
+    npm i -D style-loader node-sass css-loader sass-loader
    
-    `npm i -D clean-webpack-plugin`
+    npm i -D clean-webpack-plugin
    
-    `npm i -D html-webpack-plugin`
+    npm i -D html-webpack-plugin
    
-    `npm i -D mini-css-extract-plugin`
+    npm i -D mini-css-extract-plugin
    
-    `npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin`
+    npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 
 
 9. Obtain an API key from MeaningCloud.
